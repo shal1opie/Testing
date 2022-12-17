@@ -3,7 +3,7 @@
 using namespace std;
 
 void cheers(int n){
-for (int i = 0; i < n; i) { //скобка
+for (int i = 0; i < n; i++) { //скобка
 cout << "Cheers! "; // cout вместо cou тчк с зпт
 cout << endl;
 };
@@ -22,6 +22,6 @@ cin >> side;
 double volume = cube(side); // вызов функции // неправильное название переменной
 cout << "A "<< side <<"-foot cube has a volume of ";
 cout << volume << " cubic feet.\n"; //кавычки на клювы
-cheers (27); //cube
+cheers (27); //27 раз
 return 0; //ретурн
 }
